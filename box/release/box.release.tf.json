@@ -1,6 +1,136 @@
 {
   "releases": [
     {
+      "version": "0.15.0",
+      "tags": ["beta"],
+      "author": "@dompling",
+      "msg": "feat(boxjs): 通过数据查看器查询过的数据，会加入全局备份的名单中",
+      "notes": [
+        {
+          "name": "新增",
+          "descs": ["通过数据查看器查询过的数据，会加入全局备份的名单中"]
+        },
+        {
+          "name": "感谢",
+          "descs": ["@dompling PR"]
+        }
+      ]
+    },
+    {
+      "version": "0.14.2",
+      "tags": ["beta"],
+      "author": "@chavyleung",
+      "msg": "fix(boxjs): 全局静默状态下没有发出查询警告",
+      "notes": [
+        {
+          "name": "修复",
+          "descs": ["全局静默状态下没有发出查询警告"]
+        },
+        {
+          "name": "感谢",
+          "descs": ["@MuTu888 反馈"]
+        }
+      ]
+    },
+    {
+      "version": "0.14.1",
+      "tags": ["beta"],
+      "author": "@chavyleung",
+      "msg": "fix(boxjs): boxjs 自身的请求仍发出警告问题",
+      "notes": [
+        {
+          "name": "数据查询警告",
+          "descs": [
+            "为保护用户数据，当发现不是 boxjs 自身发起的数据查询时，会发出警告 (默认开启)",
+            "可以在 boxjs 页面侧栏中关闭警告 (但仍会记录日志)"
+          ]
+        },
+        {
+          "name": "感谢",
+          "descs": ["@xream 反馈"]
+        }
+      ]
+    },
+    {
+      "version": "0.14.0",
+      "tags": ["beta"],
+      "author": "@chavyleung",
+      "msg": "feat(boxjs): 增加数据查询警告",
+      "notes": [
+        {
+          "name": "数据查询警告",
+          "descs": [
+            "为保护用户数据，当发现不是 boxjs 自身发起的数据查询时，会发出警告 (默认开启)",
+            "可以在 boxjs 页面侧栏中关闭警告 (但仍会记录日志)"
+          ]
+        },
+        {
+          "name": "感谢",
+          "descs": ["@xream 反馈"]
+        }
+      ]
+    },
+    {
+      "version": "0.13.1",
+      "tags": ["beta"],
+      "author": "@chavyleung",
+      "msg": "fix(boxjs): 数据查看器无法对空数据进行编辑问题",
+      "notes": [
+        {
+          "name": "修复",
+          "descs": ["数据查看器无法对空数据进行编辑问题"]
+        },
+        {
+          "name": "感谢",
+          "descs": ["@xream 反馈"]
+        }
+      ]
+    },
+    {
+      "version": "0.13.0",
+      "tags": ["beta"],
+      "author": "@chavyleung",
+      "msg": "feat(boxjs): 数据查看器显示历史查询记录",
+      "notes": [
+        {
+          "name": "功能",
+          "descs": ["数据查看器显示历史查询记录"]
+        }
+      ]
+    },
+    {
+      "version": "0.12.14",
+      "tags": ["beta"],
+      "author": "@chavyleung",
+      "msg": "fix(boxjs): qx 执行脚本后无法获取结果问题",
+      "notes": [
+        {
+          "name": "修复",
+          "descs": ["qx 执行脚本后无法获取结果问题"]
+        },
+        {
+          "name": "感谢",
+          "descs": ["@xream 反馈"]
+        }
+      ]
+    },
+    {
+      "version": "0.12.13",
+      "tags": ["beta"],
+      "author": "@chavyleung",
+      "msg": "fix(boxjs): 编辑会话时数据显示 [object Object] 问题",
+      "notes": [
+        {
+          "name": "修复",
+          "descs": ["编辑会话时数据显示 [object Object] 问题"]
+        },
+        {
+          "name": "感谢",
+          "descs": ["@VirgilClyne 反馈"]
+        }
+      ]
+    },
+    {
       "version": "0.12.12",
       "tags": ["beta"],
       "author": "@chavyleung",
